@@ -2,7 +2,7 @@ package com.manning.javapersistence.ch02;
 
 import org.hibernate.SessionFactory;
 
-import javax.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityManagerFactory;
 
 public class HelloWorldJPAToHibernateTest {
 

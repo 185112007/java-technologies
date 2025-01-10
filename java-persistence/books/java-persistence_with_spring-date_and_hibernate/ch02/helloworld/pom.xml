@@ -37,8 +37,8 @@
     <!-- includes hibernate-core & jpa interface stubs -->
     <dependency>
       <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-entitymanager</artifactId>
-      <version>5.6.15.Final</version>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.5.2.Final</version>
     </dependency>
 
     <dependency>
@@ -54,5 +54,18 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.33</version>
     </dependency>
+
+    <!-- spring data jpa: includes spring-core, spring-context, ... -->
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-jpa</artifactId>
+      <version>3.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>6.2.0</version>
+    </dependency>
+
   </dependencies>
 </project>

@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.junit.jupiter.api.Test;
 
-import javax.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.CriteriaQuery;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertAll;

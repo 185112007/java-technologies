@@ -2,8 +2,8 @@ package com.manning.javapersistence.ch02;
 
 import org.hibernate.cfg.Configuration;
 
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
